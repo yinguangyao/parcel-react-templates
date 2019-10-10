@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'mobx-react'
+import { Provider } from 'react-redux'
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,12 +10,12 @@ import {
 import {
     Home
 } from './pages'
-import stores from './store'
+import stores from './stores'
 
 const App = () => {
     return (
-        <Router>
-            <Provider store={stores}>
+        <Provider store={stores}>
+            <Router>
                 <Switch>
                     <Route path="/home">
                         <Home />
@@ -24,8 +24,8 @@ const App = () => {
                         <Home />
                     </Route>
                 </Switch>
-            </Provider>
-        </Router>
+            </Router>
+        </Provider>
     )
 }
 ReactDOM.render(
