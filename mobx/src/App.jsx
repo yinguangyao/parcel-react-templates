@@ -10,7 +10,7 @@ import {
 import {
     Home
 } from './pages'
-import stores from './store'
+import stores from './stores'
 
 const App = () => {
     return (

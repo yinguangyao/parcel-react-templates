@@ -1,0 +1,19 @@
+{
+  "name": "parcel-react-templates",
+  "version": "1.0.1",
+  "description": "this is template for react、redux/mobx、react-router、parcel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinguangyao/parcel-react-templates.git"
+  },
+  "author": "gyyin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yinguangyao/parcel-react-templates/issues"
+  },
+  "homepage": "https://github.com/yinguangyao/parcel-react-templates#readme"
+}

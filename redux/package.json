@@ -1,6 +1,6 @@
 {
   "name": "parcel-redux-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "parcel index.html --open"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
